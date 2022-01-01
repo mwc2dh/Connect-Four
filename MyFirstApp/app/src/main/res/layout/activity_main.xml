@@ -23,28 +23,17 @@
         app:layout_constraintVertical_bias="0.216" />
 
     <Button
-        android:id="@+id/one_player"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/allerta_stencil"
-        android:onClick="onePlayer"
-        android:text="One Player Mode"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441" />
-
-    <Button
         android:id="@+id/two_player"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="201dp"
+        android:layout_height="88dp"
         android:fontFamily="@font/allerta_stencil"
+        android:textSize = "24sp"
         android:onClick="twoPlayer"
         android:text="Two Player Mode"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.607" />
+        app:layout_constraintVertical_bias="0.532" />
 </android.support.constraint.ConstraintLayout>

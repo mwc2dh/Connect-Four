@@ -19,10 +19,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OnePlayerActivity"
-            android:label="@string/app_name">
-        </activity>
-        <activity
             android:name=".TwoPlayerActivity"
             android:label="@string/app_name">
         </activity>

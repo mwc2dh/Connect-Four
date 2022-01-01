@@ -14,10 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onePlayer(View v) {
-        startActivity(new Intent(MainActivity.this, OnePlayerActivity.class));
-    }
-
     public void twoPlayer(View v) {
         startActivity(new Intent(MainActivity.this, TwoPlayerActivity.class));
     }
